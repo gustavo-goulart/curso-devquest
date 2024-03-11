@@ -1,0 +1,10 @@
+.quadrado {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.azul {
+  background-color: blue;
+}

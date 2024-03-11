@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.quadrado {
+  height: 100px;
+  width: 100px;
+}
+.azul {
+  background-color: blue;
+}
+.vermelho {
+  background-color: red;
+}
+.amarelo {
+  background-color: yellow;
+}
