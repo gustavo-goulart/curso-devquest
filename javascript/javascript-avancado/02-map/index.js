@@ -1,5 +1,5 @@
 let pessoas = [
-  { nome: "Eu", idade: 23 },
+  { nome: "Gustavo", idade: 41 },
   { nome: "Lizzy", idade: 19 },
   { nome: "Roberto", idade: 33 },
 ];
@@ -21,7 +21,7 @@ console.log(nomeDasPessoas);
 // COM MAP
 
 let nomeDasPessoas = pessoas.map(function (pessoa) {
-  return pessoa.nome;
+  return pessoa.nome + " tem " + pessoa.idade + " anos";
 });
 
 console.log(nomeDasPessoas);
@@ -31,4 +31,3 @@ console.log(nomeDasPessoas);
 let nomeDasPessoas = pessoas.map(pessoa => pessoa.nome;
 
 */
-
