@@ -1,0 +1,89 @@
+/*
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+@media (max-width: 992px) {
+  body {
+    background-image: url(../imagens/bg-mobile.svg);
+    background-size: contain;
+    background-position: top center;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .tela,
+  .sobre {
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .logo img {
+    max-width: 25%;
+  }
+
+  .tela img {
+    margin-left: 150px;
+  }
+
+  .titulo h1,
+  .paragrafo p {
+    text-align: center;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .midias-sociais {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 628px) {
+  body {
+    background-image: url(../imagens/bg-mobile.svg);
+    background-size: contain;
+    background-position: top center;
+  }
+
+  .container {
+    display: block;
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  .logo img {
+    max-width: 25%;
+  }
+
+  .tela img {
+    width: 70%;
+  }
+
+  .titulo h1,
+  .paragrafo p {
+    text-align: center;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .midias-sociais {
+    align-items: center;
+    justify-content: center;
+  }
+}
