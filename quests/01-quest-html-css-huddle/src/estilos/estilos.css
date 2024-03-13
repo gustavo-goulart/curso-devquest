@@ -1,6 +1,8 @@
 body {
-  width: 98vw;
+  width: 100vw;
+  height: 100vh;
   background-image: url(../imagens/bg-desktop.svg);
+  background-size: contain;
 }
 
 .logo img {
