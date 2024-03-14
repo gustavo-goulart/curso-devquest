@@ -11,5 +11,8 @@
     "npm"
   ],
   "author": "Gustavo Goulart",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
 }
